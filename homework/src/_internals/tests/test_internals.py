@@ -18,3 +18,7 @@ def test_parse_args():
 
     assert input_folder == test_args[1]
     assert output_folder == test_args[2]
+
+
+def test_read_all_files():
+    

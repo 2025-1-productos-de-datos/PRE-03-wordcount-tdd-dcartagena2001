@@ -23,9 +23,9 @@ def parse_args():
 
     return parsed_args.input, parsed_args.output
 
+def read_all_files(input_folder):
+    pass
 
 def main():
     input_folder, output_folder = parse_args()
-
-    print("input foder:", input_folder)
-    print("output folder:", output_folder)
+    lines = read_all_files(input_folder)
