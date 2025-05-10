@@ -1,7 +1,4 @@
-## wordcount.py
-
 import argparse
-import sys
 
 
 def parse_args():
@@ -22,10 +19,3 @@ def parse_args():
     parsed_args = parser.parse_args()
 
     return parsed_args.input, parsed_args.output
-
-def read_all_files(input_folder):
-    pass
-
-def main():
-    input_folder, output_folder = parse_args()
-    lines = read_all_files(input_folder)
